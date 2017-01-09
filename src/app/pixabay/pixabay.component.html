@@ -1,0 +1,28 @@
+<div class="container mbottom">
+	<div class="row">
+        <div class="col-md-6 col-md-offset-3">
+    		<h2 class="text-center">Search your Image </h2>
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <input type="text" class="form-control input-lg" placeholder="Search....."  name="query" [(ngModel)]="query" (keyup)="searchImage()"/>
+                    <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+
+
+
+<div class="container">
+	<div class="row">
+		<div *ngFor="let image of images" class="col-md-4 col-sm-4 col-xs-6 shine_me">
+    	    <img src="{{image.webformatURL}}" class="img-responsive"/>
+            <i class="shine_effect"></i>
+		</div>
+	</div>
+</div>
