@@ -2,7 +2,7 @@
 This project search images from `http://pixabay.com` api service and show as grid. 
 From this project you can learn angular2 http service (GET).
 Angular2 is still in beta i tried to learn and what i learn i share
-[Demo](http://pixabay.uploadandshare.xyz/).
+[Demo](https://yqnivvn.github.stackblitz.io/).
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
